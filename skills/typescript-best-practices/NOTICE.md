@@ -1,0 +1,3 @@
+# Notice
+
+The rules in `references/` and `SKILL.md` were written for this toolkit. The quoted sentences inside them are short excerpts from the TypeScript handbook, reference pages, release notes and TSConfig reference published at https://www.typescriptlang.org and maintained in the microsoft/TypeScript-Website repository, copyright Microsoft Corporation, licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. The TypeScript 7.0 announcement at https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/ is paraphrased, not quoted. The excerpts were selected, shortened and arranged into review rules; the source link beside each rule points to the original. No endorsement by Microsoft or the TypeScript team is implied.
