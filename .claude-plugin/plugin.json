@@ -1,0 +1,13 @@
+
+{
+  "name": "toolkit",
+  "version": "0.1.0",
+  "description": "A collection of reusable engineering skills, specialised agents, and development workflows for Claude Code.",
+  "author": {
+    "name": "Wioletta Gluza",
+    "url": "https://www.wiola.dev/"
+  },
+  "homepage": "https://github.com/w-gluza/claude-toolkit",
+  "repository": "https://github.com/w-gluza/claude-toolkit",
+  "license": "MIT"
+}
