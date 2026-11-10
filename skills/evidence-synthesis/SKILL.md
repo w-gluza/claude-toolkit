@@ -2,7 +2,7 @@
 name: evidence-synthesis
 description: Verify engineering claims against available evidence. Use when assessing whether functionality is implemented, merged, deployed, enabled, or working as claimed.
 metadata:
-  trigger: "is this live", "has this shipped", "is the API ready", "does X work in staging", a readiness question handed over by context-investigation
+  trigger: readiness questions such as "is this live", "has this shipped", "is the API ready", "does X work in staging", or a dependency handed over by context-investigation
   pairs-with: context-investigation
 ---
 
