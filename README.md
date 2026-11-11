@@ -23,9 +23,6 @@ Install the plugin:
 claude plugin install toolkit@claude-toolkit
 ```
 
-That's it. The agents and skills are now available in Claude Code.
-
-
 
 ## The Committee
 
@@ -163,3 +160,11 @@ Maintains engineering guidance, verifies authoritative sources and identifies ou
 [View agent](agents/librarian.md)
 
 </details>
+
+## Licence & Credits
+
+Claude Toolkit is released under the [MIT Licence](LICENSE).
+
+Some skills draw on external documentation, established engineering practices, and community contributions. Original authors and third-party sources are acknowledged in [NOTICE.md](NOTICE.md).
+
+Created and maintained by [Wioletta Gluza](https://www.wiola.dev/).
