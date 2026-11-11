@@ -10,6 +10,7 @@ Use the skills independently or through **The Committee**, a collection of speci
 
 
 
+
 ## The Committee
 
 Five specialised agents, each with a distinct responsibility. They work independently, drawing on reusable skills to investigate, design, debug, review, and maintain software.
@@ -18,12 +19,17 @@ Five specialised agents, each with a distinct responsibility. They work independ
 ---
 config:
   theme: base
+  look: classic
   themeVariables:
     background: "#0D1117"
+    fontFamily: "Arial, Helvetica, sans-serif"
+    fontSize: "16px"
   flowchart:
     curve: stepAfter
-    nodeSpacing: 30
-    rankSpacing: 60
+    nodeSpacing: 20
+    rankSpacing: 40
+    wrappingWidth: 240
+    minNodeWidth: 170
 ---
 flowchart TB
     subgraph PANEL[" "]
@@ -42,10 +48,11 @@ flowchart TB
     classDef outlined fill:#FFFFFF,stroke:#4169A1,color:#14213D,stroke-width:1.5px
 
     class C primary
-    class D,R,G,I,L outlined
+    class R,D,I,G,L outlined
 
     style PANEL fill:#0D1117,stroke:#0D1117,stroke-width:0px
 
     linkStyle default stroke:#FCA311,stroke-width:1.6px
 ```
+
 
