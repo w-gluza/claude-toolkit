@@ -9,6 +9,22 @@ That approach comes from my interests in frontend engineering, UX, and modern de
 Use the skills independently or through **The Committee**, a collection of specialised agents.
 
 
+## Installation
+
+Add the toolkit marketplace to Claude Code:
+
+```bash
+claude plugin marketplace add w-gluza/claude-toolkit
+```
+
+Install the plugin:
+
+```bash
+claude plugin install toolkit@claude-toolkit
+```
+
+That's it. The agents and skills are now available in Claude Code.
+
 
 
 ## The Committee
