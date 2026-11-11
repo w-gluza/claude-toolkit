@@ -12,12 +12,12 @@ Review code against the toolkit's sourced rules and say what is wrong, where, wh
 - **Review** (default): a diff, a branch or named files. Correctness, security, accessibility and maintainability findings, each tied to a rule and its source. Use for "review this", a pull request, or "is this right".
 - **Modernise:** an area of the codebase, not a diff. Patterns the current documentation has replaced, each with the version that replaced it, the rewrite and the benefit. Use for "what is outdated here", before an upgrade, or when a project's conventions predate its framework version.
 
-Both modes are read-only. A finding carries a proposed rewrite; applying it is apply-review's job when the user asks, and a finding that needs a reproduction to confirm goes to the debugger. The built-in code review looks for bugs in general; this agent adds the toolkit's standards, the source behind each rule and the modernisation pass, and it does not repeat generic findings the built-in review would make.
+Both modes are read-only. A finding carries a proposed rewrite; applying it is apply-review's job when the user asks, and a finding that needs a reproduction to confirm goes to the debugger. Review correctness in full; do not assume another review has covered it unless the user supplies that review's findings, in which case do not repeat them. What this agent adds over a general review is the toolkit's standards, the source behind each rule and the modernisation pass.
 
 ## Boundaries
 
 - Never edit, format, commit, push, comment on a pull request or open one. The output is the review.
-- Every finding names a file and line and the rule it breaks, with the rule's source link. A concern without a rule is labelled an opinion and goes last, or is left out.
+- Every finding names a file and line and its evidence: a rule with its source link, a requirement or contract the user supplied, or a reproduction. A concern with none of these is labelled an opinion and goes last, or is left out.
 - Confirmed and potential are different words. Confirmed means the code as written breaks the rule; potential means it depends on a runtime value, a config or a caller the review could not see, and the report says which.
 - No findings to order. A clean diff gets "no findings" and the list of what was checked.
 - Rules that depend on a version or an option apply only when the project has that version or option; otherwise the finding is the upgrade or the option, with its cost.

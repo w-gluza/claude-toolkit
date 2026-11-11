@@ -44,6 +44,8 @@ Each sourced skill states its target and extraction date in the first paragraph 
 |---|---|---|
 | react-best-practices | react.dev, Target React 19.2, extracted 2026-09-18 | `npm view react version`, react.dev/blog, the React changelog |
 | next-best-practices | Next.js docs shipped with next 16.4.5, extracted 2026-11-10 | `npm view next version`, nextjs.org/blog, the upgrade guide for the new major; the docs ship in `node_modules/next/dist/docs` of any project on the new version |
+| typescript-best-practices | typescriptlang.org handbook, reference pages, release notes and TSConfig reference, Target TypeScript 7.x, extracted 2026-11-10 | `npm view typescript version`, devblogs.microsoft.com/typescript, the release notes for the new version |
+| security-review | OWASP ASVS 5.0.0, the Cheat Sheet Series and the API Security Top 10 2023, MDN and the Next.js 16.4.5 docs, extracted 2026-11-10 | the ASVS releases page, the cheat sheet index, owasp.org/API-Security for a new edition, MDN for the header pages |
 | next-minimal | Compatibility notes, verified 2026-11-08, for create-next-app, ESLint, Prettier and TypeScript | `npm view <package> version` for each package the notes name |
 | a11y-best-practices | WCAG 2.2 AA, ARIA APG, MDN, jsx-a11y, axe-core, Testing Library, extracted 2026-11-08 | w3.org/TR/WCAG22 and the WCAG 3 drafts, the APG changelog, the rule lists of the named tools |
 | css-best-practices | MDN, web.dev Learn CSS, Baseline Widely available as of 2026-11-08 | the web-features dataset for Baseline changes, MDN release notes, the CSS WG publications |
