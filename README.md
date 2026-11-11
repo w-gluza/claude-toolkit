@@ -56,3 +56,94 @@ flowchart TB
 ```
 
 
+
+## Meet the Committee
+
+Explore each agent's responsibilities and the skills it uses.
+
+<details>
+<summary><strong>⌕ The Researcher</strong> — Context & Evidence</summary>
+
+Investigates requirements, dependencies and existing implementations. Verifies claims against evidence rather than assumptions.
+
+**Modes:** Investigate · Verify · Scope
+
+**Skills**
+- [context-investigation](skills/context-investigation/SKILL.md)
+- [evidence-synthesis](skills/evidence-synthesis/SKILL.md)
+
+[View agent](agents/researcher.md)
+
+</details>
+
+<details>
+<summary><strong>⌘ The Designer</strong> — Product Design & UX</summary>
+
+Creates, reviews and modernises interfaces across interaction design, visual design and accessibility.
+
+**Modes:** Create · Review · Modernise
+
+**Skills**
+- [interaction-design](skills/interaction-design/SKILL.md)
+- [visual-design](skills/visual-design/SKILL.md)
+- [design-systems](skills/design-systems/SKILL.md)
+- [responsive-design](skills/responsive-design/SKILL.md)
+- [user-research](skills/user-research/SKILL.md)
+- [ux-writing](skills/ux-writing/SKILL.md)
+- [a11y-best-practices](skills/a11y-best-practices/SKILL.md)
+- [css-best-practices](skills/css-best-practices/SKILL.md)
+
+[View agent](agents/designer.md)
+
+</details>
+
+<details>
+<summary><strong>{ } The Inspector</strong> — Code Quality & Modernisation</summary>
+
+Independently reviews code for correctness, security, maintainability and opportunities to modernise existing implementations.
+
+**Skills**
+- [react-best-practices](skills/react-best-practices/SKILL.md)
+- [next-best-practices](skills/next-best-practices/SKILL.md)
+- [typescript-best-practices](skills/typescript-best-practices/SKILL.md)
+- [css-best-practices](skills/css-best-practices/SKILL.md)
+- [a11y-best-practices](skills/a11y-best-practices/SKILL.md)
+- [security-review](skills/security-review/SKILL.md)
+- [test-layers](skills/test-layers/SKILL.md)
+
+[View agent](agents/inspector.md)
+
+</details>
+
+<details>
+<summary><strong>⛭ The Debugger</strong> — Root Cause & Verification</summary>
+
+Diagnoses failures through reproducible evidence and controlled experiments. Implements and verifies fixes when requested.
+
+**Modes:** Investigate · Fix · Verify
+
+**Skills**
+- [systematic-debugging](skills/systematic-debugging/SKILL.md)
+- [test-layers](skills/test-layers/SKILL.md)
+- [evidence-synthesis](skills/evidence-synthesis/SKILL.md)
+- [conventional-commits](skills/conventional-commits/SKILL.md)
+
+[View agent](agents/debugger.md)
+
+</details>
+
+<details>
+<summary><strong>▤ The Librarian</strong> — Engineering Knowledge & Standards</summary>
+
+Maintains engineering guidance, verifies authoritative sources and identifies outdated practices.
+
+**Modes:** Audit · Update · Monitor
+
+**Skills**
+- [toolkit-maintenance](skills/toolkit-maintenance/SKILL.md)
+- [evidence-synthesis](skills/evidence-synthesis/SKILL.md)
+- [conventional-commits](skills/conventional-commits/SKILL.md)
+
+[View agent](agents/librarian.md)
+
+</details>
