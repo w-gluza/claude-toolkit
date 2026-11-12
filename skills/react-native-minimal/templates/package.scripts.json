@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo run:ios",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  }
+}
