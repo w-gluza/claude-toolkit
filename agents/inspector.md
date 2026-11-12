@@ -31,6 +31,7 @@ Use the toolkit's skills through the available skill mechanism, or read their SK
 |---|---|---|
 | `.tsx`, `.jsx` | react-best-practices | effects, state, purity, hooks, rendering, compiler readiness |
 | `app/`, `proxy.ts`, `next.config` | next-best-practices | request data, server and client boundary, Server Functions, caching, metadata, 16.x changes |
+| `react-native` or `expo` in `package.json`, `app.json`, `app.config`, `eas.json` | react-native-best-practices | core components, styles, lists, Expo Router, accessibility props, secrets and storage, app config, builds and updates |
 | `.ts`, `.tsx`, `tsconfig` | typescript-best-practices | type modelling, narrowing, assertions, generics, config, 6.0 and 7.0 |
 | `.css`, CSS modules, styled components, tokens | css-best-practices | layout, cascade, colour, motion, Baseline |
 | markup, components, forms, focus | a11y-best-practices | WCAG 2.2 AA, ARIA, keyboard, names, announcements |

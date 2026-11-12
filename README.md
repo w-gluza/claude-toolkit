@@ -118,6 +118,7 @@ Independently reviews code for correctness, security, maintainability and opport
 **Skills**
 - [react-best-practices](skills/react-best-practices/SKILL.md)
 - [next-best-practices](skills/next-best-practices/SKILL.md)
+- [react-native-best-practices](skills/react-native-best-practices/SKILL.md)
 - [typescript-best-practices](skills/typescript-best-practices/SKILL.md)
 - [css-best-practices](skills/css-best-practices/SKILL.md)
 - [a11y-best-practices](skills/a11y-best-practices/SKILL.md)

@@ -11,6 +11,7 @@ Third-party material retains its original copyright and licensing terms. The rel
 | `skills/stop-slop/` | MIT. Original work by Hardik Pandya, with house-style additions by Wioletta Gluza. | [stop-slop](https://github.com/hardikpandya/stop-slop) |
 | `skills/react-best-practices/references/` | Original guidance with quotations from React documentation, licensed under CC BY 4.0. | See folder `NOTICE.md` |
 | `skills/next-best-practices/references/` | Original guidance with quotations from Next.js documentation, licensed under MIT. | See folder `NOTICE.md` |
+| `skills/react-native-best-practices/references/` | Original guidance with quotations from React Native documentation, licensed under CC BY 4.0, and Expo documentation, licensed under MIT. | See folder `NOTICE.md` |
 | `skills/typescript-best-practices/references/` | Original guidance with quotations from TypeScript documentation, licensed under CC BY 4.0. | See folder `NOTICE.md` |
 | `skills/a11y-best-practices/references/` | Includes MDN content under CC BY-SA 2.5 or later, alongside W3C documents and other separately licensed sources. | See folder `NOTICE.md` |
 | `skills/css-best-practices/references/` | Includes MDN content under CC BY-SA 2.5 or later, web.dev content under CC BY 4.0, and W3C documents. | See folder `NOTICE.md` |
